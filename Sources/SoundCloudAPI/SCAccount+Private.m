@@ -18,10 +18,10 @@
  * 
  */
 
-#if TARGET_OS_IPHONE
-#import "NXOAuth2.h"
+#if __has_feature(modules)
+@import NXOAuth2Client;
 #else
-#import "NXOAuth2.h"
+#import <NXOAuth2Client/NXOAuth2.h>
 #endif
 
 #import "SCSoundCloud.h"
