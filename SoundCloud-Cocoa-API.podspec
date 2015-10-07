@@ -1,8 +1,9 @@
 Pod::Spec.new do |s|
   	s.name = 'SoundCloud-Cocoa-API'
-	s.summary = 'Maintained version of the Soundcloud Cocoa API.'
-  	s.version = '1.1.1'
-  	s.license = { :type => 'propietary', :text => 'https://developers.soundcloud.com/docs/api/terms-of-use' }
+    s.module_name = 'SoundCloud'
+  	s.summary = 'Maintained version of the Soundcloud Cocoa API.'
+  	s.version = '1.1.2'
+  	s.license = { :type => 'Proprietary', :text => 'https://developers.soundcloud.com/docs/api/terms-of-use' }
   	s.author = 'SoundCloud'
   	s.homepage = 'https://developers.soundcloud.com/docs/api/ios-quickstart'
 
